@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="discription" content="this is an e-commarce project"> 
+  <title>E-commarce project</title>
+  
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+  integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css"/>
+
+</head>
+<body> 
+      <!-- navbar starts here -->
+         <i class="fa-sharp fa-solid fa-bars"id="menu-icon"></i>
+      <nav id="menu" class="hidden">
+         <ul class="nav-upper flex-space-around"> 
+            <li class="nav_list">
+              <a href="home.html" class="nav_link"> Home</a>
+            </li>
+            <li class="nav_list">
+              <a href=" register.html " class="nav_link"> Register</a>
+            </li>
+            <li class="nav_list">
+              <a href=" login.html " class="nav_link"> Login</a>
+            </li>
+            <li class="nav_list">
+              <a href=" home.html " class="nav_link"> Logout</a>
+            </li>
+            <li class="nav_list">
+              <a href=" contact.html " class="nav_link"> Contact</a>
+            </li>
+            <li class="nav_list">
+              <a href=" profile .html " class="nav_link">
+                <img class="profile-icon" src="chancol 1.png" alt="profile icon">
+              </a>
+            </li>
+         </ul>
+        <ul class="nav_lower flex-space-around">
+          <li class="nav_list">
+            <span><i class="fa-regular fa-face-smile-beam"></i></span>
+            <a href="home.html"class=" nav_brand nav_link"> Chancol</a>
+          </li>
+          <li class="nav_list">
+            <a href="cart.html"class="nav_link">
+              <span>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </span>
+              Cart 2 Product -$120.75
+            </a>
+          </li>
+        </ul> 
+      </nav>
+       <!-- navbar ends here --> 
+
+       <!-- header starts here -->
+
+       <header class="header">
+        <div class="banner flex-space-around">
+          <marquee class="banner_title " behavior=" " direction=""> 50% Sales Going On
+          </marquee>
+          <div class="features flex-space-around">
+            <article class="feature flex-center">
+                      <i class="fa-solid fa-truck feature_icon"></i>
+                      <h3> Shipping Within 7 Days</h3>
+            </article>
+            <article class="feature flex-center">
+              <i class="fa-brands fa-rocketchat
+               feature_icon"></i>
+              <h3> Support 24/7</h3>
+    </article>
+    <article class="feature flex-center">
+      <i class="fa-regular fa-credit-card  feature_icon"></i>
+      <h3>Safe Payment</h3>
+</article>
+          </div>
+        </div>
+       </header>
+       <!-- header ends here -->
+              <main class="flex-center">
+                <div class="sidebar">
+                  <section class="categories-section">
+                    <h3 class="section-title"> Categories</h3>
+                    <ul class="list">
+                      <li class="list_item">
+                        <label for=" phone">
+                          <input type="checkbox" name="phone"
+                          id="phone" value="phone"/>
+                          Phone
+                        </label>
+                      </li>
+                      <li class="list_item">
+                        <label for=" tablets">
+                          <input type="checkbox" name="tablets"
+                          id="tablets" value="tablets"/>
+                          Tablets
+                        </label>
+                      </li>
+                      <li class="list_item">
+                        <label for=" televission">
+                          <input type="checkbox" name="televission"
+                          id="televission" value="televission"/>
+                          Televission
+                        </label>
+                      </li>
+                      <li class="list_item">
+                        <label for=" laptop">
+                          <input type="checkbox" name="laptop"
+                          id="laptop" value="laptop"/>
+                          Laptop
+                        </label>
+                      </li>
+                      <li class="list_item">
+                        <label for=" computers">
+                          <input type="checkbox" name="computers"
+                          id="computers" value="computers"/>
+                          Computers
+                        </label>
+                      </li>
+                    </ul>
+                    <!-- section-2  -->
+                  </section>
+                  <section class="price-section">
+                    <h3 class="section-title"> Price Range</h3>
+                    <ul class="list">
+                      <li class="list_item">
+                        <label for=" price 1">
+                          <input type="Radio" name="price 1"
+                          id="price 1" value="0-20"/>
+                          $0-20
+                        </label>
+                      </li>
+                      <li class="list_item">
+                        <label for=" Price 2">
+                          <input type="Radio" name="Price 2"
+                          id="Price 2" value="$21-50"/>
+                          $21-50
+                        </label>
+                      </li>
+                      <li class="list_item">
+                        <label for=" price 3">
+                          <input type="Radio" name="price 3"
+                          id="price 3" value="$51-100"/>
+                          $51-100
+                        </label>
+                      </li>
+                      <li class="list_item">
+                        <label for=" price 4">
+                          <input type="Radio" name="price 4"
+                          id="price 4" value="$101-150"/>
+                          $101-150
+                        </label>
+                      </li>
+                      <li class="list_item">
+                        <label for=" price 5">
+                          <input type="Radio" name="price 5"
+                          id="price 5" value="$151-200"/>
+                          $151-200
+                        </label>
+                      </li>
+                    </ul>
+                  </section>
+                  <section class="shipping-section">
+                    <h3 class="section-title"> Shipping</h3>
+                    <ul class="list">
+                      <li class="list_item">
+                        <label for="Free">
+                          <input type="Radio" name="shipping"
+                          id="Free" value="Free"/>
+                          Free Shipping
+                        </label>
+                      </li>
+                      <li class="list_item">
+                        <label for="Paid">
+                          <input type="Radio"name="shipping"
+                          id="Paid" value="Paid"/>
+                          Paid Shipping
+                        </label>
+                      </li>
+                    </ul>
+                </div>
+                <div class="main-content">
+                  <section class="actions flex-space-around">
+                    <div class="actions_sort>">
+                      <label for="sort">
+                        Sort By:</label>
+                         <select name="sort" id=" sort">
+                          <option value="sold">Most sold </option>
+                          <option value="sold">Most rated </option>
+                          <option value="sold">Most chepest </option>
+                          <option value="sold">newest first</option>
+                          <option value="sold">biggest discount</option>
+                         </select>
+                    </div>
+                    <div class="actions_search">
+                      <input type="text"placeholder="search product">
+                        <button class="btn">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                  </section>
+
+                  <!-- product section starts here -->
+
+                    <sectiton class="products">
+                      <article class="product card">
+                        <div class="badge">
+                          <span> 5 in stock</span>
+                          <hr class="hr-design"/>
+                          <sapan>3 sold</sapan>
+                        </div>
+                        <img src="product 1.jpg" alt="product "/>
+                        <div class="product">
+                          <h3 class="product_name"> Sony V-4 Headphone</h3>
+                            <p>
+                              <span class="dot green"></span>
+                              <span class="dot white"></span>
+                              <span class=" dot red"></span>
+                            </p>
+                            <p class=" product_discription">
+                              Lorem ipsum, dolor sit amet consectetur
+                               adipisicing elit. Eligendi repellat dolorum
+                                maiores, reiciendis porro saepe, ipsam 
+                                earum ex ullam veniam eaque veritatis 
+                                 <a href="/product.html" class="lear-more"> learn more</a>
+                              </p>
+                               <h4 class="product_price"> 249.99</h4>
+                                <p class="product_rating"> Rating:4.5/5</p>
+                                <button class="btn product button"> Add To Cart</button>
+                        </div>
+                      </article>
+
+                      <article class="product card">
+                        <div class="badge">
+                          <span> 5 in stock</span>
+                          <hr class="hr-design"/>
+                          <sapan>4 sold</sapan>
+                        </div>
+                        <img src="product 2.jpg" alt="product 2"/>
+                        <div class="product">
+                          <h3 class="product_name"> Brnded Sunglass</h3>
+                            <p>
+                              <span clas
+                              s="dot green"></span>
+                              <span class="dot white"></span>
+                              <span class=" dot red"></span>
+                            </p>
+                            <p class=" product_discription">
+                              Lorem ipsum, dolor sit amet consectetur
+                               adipisicing elit. Eligendi repellat dolorum
+                                maiores, reiciendis porro saepe, ipsam 
+                                earum ex ullam veniam eaque veritatis 
+                                 <a href="/product.html" class="lear-more"> learn more</a>
+                              </p>
+                               <h4 class="product_price"> 699.99</h4>
+                                <p class="product_rating"> Rating:4.5/5</p>
+                                <button class="btn product button"> Add To Cart</button>
+                        </div>
+                      </article>
+
+                      <article class="product card">
+                        <div class="badge">
+                          <span> 5 in stock</span>
+                          <hr class="hr-design"/>
+                          <sapan>3 sold</sapan>
+                        </div>
+                        <img src="product 3.jpg" alt="product 3"/>
+                        <div class="product">
+                          <h3 class="product_name"> Branded Watch</h3>
+                            <p>
+                              <span class="dot green"></span>
+                              <span class="dot white"></span>
+                              <span class=" dot red"></span>
+                            </p>
+                            <p class=" product_discription">
+                              Lorem ipsum, dolor sit amet consectetur
+                               adipisicing elit. Eligendi repellat dolorum
+                                maiores, reiciendis porro saepe, ipsam 
+                                earum ex ullam veniam eaque veritatis 
+                                 <a href="/product.html" class="lear-more"> learn more</a>
+                              </p>
+                               <h4 class="product_price"> $999.99</h4>
+                                <p class="product_rating"> Rating:4.5/5</p>
+                                <button class="btn product button"> Add To Cart</button>
+                        </div>
+                      </article>
+
+
+                    </sectiton>
+
+                  <!-- product section ends here -->
+                </div>
+              </main>
+       <!-- footer starts here -->
+       <footer class= "footer flex-space-around">
+        <div class="flex-space-around">
+           <label for="Subscribe"> Subscribe to news letter:</label>
+            <input 
+            type="email"
+            id="Subscribe"
+            name="subscribe" 
+            class="footer_input"
+            place holder="your email address">
+            <button class="btn btn-subscribe">Subscribe</button>
+         </div>
+         <p>&copy:Copyright 2023 Chancol</p>
+       </footer>
+</body>
+</html>
